@@ -32,7 +32,7 @@ let bici = [
 ];
 console.log(bici)
 
-//variabile peso minore
+//dichiaro una variabile a cui assegno il primo oggetto dell'array
 let peso_minore = bici[0];
 
 //ciclo per prendere il peso minore
@@ -42,5 +42,5 @@ bici.forEach(({nome, peso}) => {
     }
 })
 
-//stampa in console
+//stampa in console della bici con peso minore
 console.log('La bici più leggera è ' + `${peso_minore.nome}` + 'che pesa ' + `${peso_minore.peso}` + ' kg');
